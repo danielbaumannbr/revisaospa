@@ -1,0 +1,73 @@
+<section class="mb-16">
+            <h3 class="text-2xl font-bold mb-4 flex items-center">
+                <span class="bg-red-100 text-red-600 w-8 h-8 flex items-center justify-center rounded-full mr-3 text-sm">1</span>
+                O que é o Framework?
+            </h3>
+            <p class="mb-4 leading-relaxed">
+                O Angular é uma plataforma de desenvolvimento e um framework baseado em <strong>TypeScript</strong>. Ele é projetado para criar aplicações de página única (SPA - Single Page Applications) eficientes e complexas.
+            </p>
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
+                <p class="text-blue-700"><strong>Dica:</strong> Diferente de bibliotecas como o React, o Angular é um framework "batteries-included", oferecendo roteamento, gerenciamento de formulários e cliente HTTP nativamente.</p>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h3 class="text-2xl font-bold mb-4 flex items-center">
+                <span class="bg-red-100 text-red-600 w-8 h-8 flex items-center justify-center rounded-full mr-3 text-sm">2</span>
+                Arquitetura de Componentes
+            </h3>
+            <p class="mb-6">A estrutura central do Angular baseia-se em componentes. Imagine que cada parte da sua interface (menu, lista, rodapé) é um bloco independente.</p>
+            
+            
+
+            <div class="grid md:grid-cols-3 gap-4 mt-8">
+                <div class="p-4 border rounded-lg bg-white shadow-sm">
+                    <h4 class="font-bold text-red-600 mb-2">HTML</h4>
+                    <p class="text-sm text-slate-500">Define o esqueleto e a estrutura da interface (Template).</p>
+                </div>
+                <div class="p-4 border rounded-lg bg-white shadow-sm">
+                    <h4 class="font-bold text-red-600 mb-2">TypeScript</h4>
+                    <p class="text-sm text-slate-500">Contém a lógica de negócio e o comportamento do componente.</p>
+                </div>
+                <div class="p-4 border rounded-lg bg-white shadow-sm">
+                    <h4 class="font-bold text-red-600 mb-2">CSS/SCSS</h4>
+                    <p class="text-sm text-slate-500">Define o estilo visual específico daquele componente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h3 class="text-2xl font-bold mb-6 flex items-center">
+                <span class="bg-red-100 text-red-600 w-8 h-8 flex items-center justify-center rounded-full mr-3 text-sm">3</span>
+                Como começar (CLI)
+            </h3>
+            
+            <div class="space-y-8">
+                <div class="flex">
+                    <div class="mr-4 text-slate-300 font-mono text-xl">01.</div>
+                    <div>
+                        <h4 class="font-bold text-lg">Instale o Angular CLI</h4>
+                        <p class="text-slate-600 mb-2">Abra seu terminal e instale a ferramenta de linha de comando globalmente:</p>
+                        <code class="bg-slate-900 text-green-400 p-3 rounded-md block font-mono text-sm">npm install -g @angular/cli</code>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="mr-4 text-slate-300 font-mono text-xl">02.</div>
+                    <div>
+                        <h4 class="font-bold text-lg">Crie um novo projeto</h4>
+                        <p class="text-slate-600 mb-2">O CLI criará toda a estrutura de pastas necessária:</p>
+                        <code class="bg-slate-900 text-green-400 p-3 rounded-md block font-mono text-sm">ng new meu-primeiro-app</code>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="mr-4 text-slate-300 font-mono text-xl">03.</div>
+                    <div>
+                        <h4 class="font-bold text-lg">Inicie o servidor</h4>
+                        <p class="text-slate-600 mb-2">Entre na pasta e rode o projeto em tempo real:</p>
+                        <code class="bg-slate-900 text-green-400 p-3 rounded-md block font-mono text-sm">cd meu-primeiro-app <br>ng serve --open</code>
+                    </div>
+                </div>
+            </div>
+        </section>
